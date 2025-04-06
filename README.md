@@ -32,7 +32,7 @@ The ChrF scores indicate that both models demonstrated some level of understandi
 
 However, in the UDP server implementation, Tiny StarCoder failed to generate meaningful code (ChrF = 0.0), while CodeLlama achieved a moderate score (ChrF = 38.43). This disparity suggests that Tiny StarCoder struggled with socket-based networking concepts, whereas CodeLlama showed a partial but flawed grasp of the implementation.
 
-Interestingly, despite the lack of exact matches, qualitative analysis of the generated code suggests that the models exhibited an emerging conceptual understanding. For instance, in the algorithmic code, the reference implementation utilized an `enum` to track directions, while CodeLlama instead generated a class-based `Enum` with different order (e.g., `P (right) and G (up)` vs. `L (left) and D (down)`). Similarly, in some cases, it replaced variable names (`O` in the reference vs. `S` in the generated code where name referance starting position on board so S is good prediction), showing an approximation rather than an exact replication.
+Interestingly, despite the lack of exact matches, qualitative analysis of the generated code suggests that the models exhibited an emerging conceptual understanding. For instance, in the algorithmic code, the reference implementation utilized an `enum` to track directions, while CodeLlama instead generated a class-based `Enum` with different order (e.g., `P (right) and G (up)` vs. `L (left) and D (down)`). Similarly, in some cases, it replaced names (`O` in the reference vs. `S` in the generated code where name referance starting position on board so S is good prediction), showing an approximation rather than an exact replication.
 
 ### Example Model Outputs
 **UDP Server Code:**
