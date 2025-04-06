@@ -57,7 +57,7 @@ Interestingly, despite the lack of exact matches, qualitative analysis of the ge
 These examples illustrate that CodeLlama was close to an exact match but differed in minor ways such as naming conventions and structural choices.
 
 ## Conclusion
-- CodeLlama outperformed Tiny StarCoder in both tasks, particularly in algorithmic problem-solving, which is understandable as its bigger model.
+- CodeLlama outperformed Tiny StarCoder in both tasks, particularly in algorithmic problem-solving, which is understandable as its bigger model and required to use GPU while Tiny StarCoder can perform on CPU.
 - Tiny StarCoder struggled significantly with the UDP server task.
 - Neither model produced exact matches, but ChrF scores indicate partial conceptual understanding.
 - CodeLlama was able to approximate expected implementations but sometimes introduced inefficiencies or incorrect logic.
