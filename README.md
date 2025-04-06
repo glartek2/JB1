@@ -1,4 +1,4 @@
-# JetBrains AI Evaluation Internship Report
+# AI Evaluation Internship Report
 
 ## Introduction
 This report presents the evaluation of two AI models, Tiny StarCoder and CodeLlama (7B-HF), on two distinct Python codebases. The purpose of this evaluation is to assess the models' capability to understand and generate code for an NP-hard problem-solving algorithm and a UDP socket-based server. 
